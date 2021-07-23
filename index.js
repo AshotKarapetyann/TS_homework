@@ -116,7 +116,7 @@ var tesla = new Tesla();
 tesla = new RedColor(tesla);
 tesla = new HybridEngine(tesla);
 console.log("Tesla with " + tesla.getColor() + " decorated and price " + tesla.getPrice() + "$ and your car has " + tesla.getEngine());
-// let mercedes = new Mercedes()
-// mercedes = new GreenColor(mercedes)
-// mercedes = new OilEngine(mercedes)
+// let mercedes = new Mercedes();
+// mercedes = new GreenColor(mercedes);
+// mercedes = new OilEngine(mercedes);
 // console.log(`Mercedes with ${mercedes.getColor()} decorated and price ${mercedes.getPrice()}$ and your car has ${mercedes.getEngine()}`);

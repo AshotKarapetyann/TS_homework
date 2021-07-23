@@ -30,9 +30,9 @@ class Tesla extends Car{
         super()
         this.model = "Tesla";
         this.price = 50000;
-        this.doors = 4
-        this.color = ""
-        this.engine = ""
+        this.doors = 4;
+        this.color = "";
+        this.engine = "";
     } 
 }
 
@@ -41,9 +41,9 @@ class Mercedes extends Car{
         super()
         this.model = "Mercedes";
         this.price = 65000;
-        this.doors = 4
-        this.color = ""
-        this.engine = ""
+        this.doors = 4;
+        this.color = "";
+        this.engine = "";
     } 
 }
 
@@ -51,7 +51,7 @@ class Mercedes extends Car{
 class GreenColor {
     car: any;
     constructor(car){
-        this.car = car
+        this.car = car;
     }
 
     getPrice(){
@@ -66,7 +66,7 @@ class GreenColor {
 class RedColor {
     car: any;
     constructor(car){
-        this.car = car
+        this.car = car;
     }
 
     getPrice(){
@@ -74,7 +74,7 @@ class RedColor {
     }
 
     getColor(){
-        return  "color red"
+        return  "color red";
          
     }
 }
@@ -82,7 +82,7 @@ class RedColor {
 class HybridEngine{
     car: any;
     constructor(car){
-        this.car = car
+        this.car = car;
     }
 
     getPrice(){
@@ -101,7 +101,7 @@ class HybridEngine{
 class OilEngine{
     car: any;
     constructor(car){
-        this.car = car
+        this.car = car;
     }
 
     getPrice(){
@@ -117,17 +117,17 @@ class OilEngine{
     }
 }
 
-let tesla = new Tesla()
+let tesla = new Tesla();
 
-tesla = new RedColor(tesla)
-tesla = new HybridEngine(tesla)
+tesla = new RedColor(tesla);
+tesla = new HybridEngine(tesla);
 
 console.log(`Tesla with ${tesla.getColor()} decorated and price ${tesla.getPrice()}$ and your car has ${tesla.getEngine()}`);
 
-// let mercedes = new Mercedes()
+// let mercedes = new Mercedes();
 
-// mercedes = new GreenColor(mercedes)
-// mercedes = new OilEngine(mercedes)
+// mercedes = new GreenColor(mercedes);
+// mercedes = new OilEngine(mercedes);
 
 
 // console.log(`Mercedes with ${mercedes.getColor()} decorated and price ${mercedes.getPrice()}$ and your car has ${mercedes.getEngine()}`);
