@@ -1,0 +1,19 @@
+{
+  "name": "node_lessons",
+  "version": "1.0.0",
+  "description": "Hello world!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshotKarapetyann/node_homework_typescript_.git"
+  },
+  "author": "Ashot Karapetyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshotKarapetyann/node_homework_typescript_/issues"
+  },
+  "homepage": "https://github.com/AshotKarapetyann/node_homework_typescript_#readme"
+}
